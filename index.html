@@ -13,7 +13,7 @@
         <nav>
             <image src="./assets/FES.svg" class="logo" alt=">
                 <ul>
-                    <li><a href="#about">About</a></li>
+                    <li> <a href="#about">About</a></li>
                     <li><a href="#discord">Discord</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -35,7 +35,9 @@
     </main>
     <section id="about">
         <h2>About </h2>
-        <div>
+        <div class="section_description">
+        <div class="section_description--wrapper">
+        <p class="section_description--para">
             <p>
                 Frontend Engineering School is a comprehensive online learning platform dedicated to helping aspiring
                 frontend developers acquire the skills and knowledge needed to excel in the field of web development.
@@ -48,7 +50,7 @@
                 Engineering School equips students with the tools they need to succeed in the competitive world of web
                 development
             </p>
-            <p>
+            <p class="section_description--para" >
                 At Frontend Engineering School, we understand the importance of staying up-to-date with the latest
                 trends and technologies in frontend development. Our curriculum is regularly updated to reflect industry
                 standards and best practices, ensuring that our students are well-prepared for the demands of the job
@@ -58,42 +60,49 @@
                 Engineering School provides the resources and support you need to succeed in your coding journey.
             </p>
         </div>
-        <figure>
+        <figure class ="about_img--wrapper">
             <img src="./assets/about.jpg" alt="">
         </figure>
-        <section id="discord"></section>
+        <section id="discord">
         <h2> Discord</h2>
+        <div class="section_description">
+
+        </div>
         <figure>
             <img src="./assets/discord.png" alt="Discord">
         </figure>
-        <div>
-            <p>
+        <div class ="section_description--wrapper">
+            <p class="section_description--para" >
                 Join our vibrant Discord community to connect with fellow frontend developers, share your projects,
                 seek advice, and stay updated on the latest trends in frontend development. Our Discord server is a
                 welcoming space for learners of all levels, where you can engage in discussions, participate in coding
                 challenges, and receive support from experienced mentors. Whether you're looking for feedback on your
                 code or want to collaborate on a project, our Discord community is the perfect place to grow your
                 skills and connect with like-minded individuals passionate about frontend development.
-            </p>
+           </p>
+           <P class="section_description--para">
         </div>
         </section>
 
         <section id="contact"></section>
         <h2>Contact</h2>
         <form action="">
-         <input type="text" placeholder="Coker@example.com">
+         <input type="email" placeholder="Coker@example.com">
          <span>message</span>
-            <textarea type="text" placeholder="Coker@example.com"></textarea>
+            <textarea type="text" placeholder="Cool website"></textarea>
+         <button>contact us </button>
             </form> 
     </section>
 </main>
 
 </footer>
-<img src ="./assets/FES.svg" alt="">
+<img class="logo" src ="./assets/FES.svg" alt="">
+<div class="footer_links">
 <div>
-    <a href="#about">About</a>
-    <a href="#discord">Discord</a>
-    <a href="#courses">Courses</a>
+    <a class ="footer_link" href="#about">About</a>
+    <a class = "footer_link" href="#discord">Discord</a>
+    <a class = "footer_link" href="#contact">Contact</a>
+    <a class="footer_link" href="#courses">Courses</a>
 </div>
 <p>copyright © 2023 Frontend Engineering School. All rights reserved.</p>
 
